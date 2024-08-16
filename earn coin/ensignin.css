@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display:flex;
+	justify-content: center;
+	align-content:center;
+    padding-top:130px;
+    background: url(signinpic.jpeg)no-repeat;
+	background-size:cover ;
+	background-position: center;
+}
+.main{
+	margin: 20px;
+	display: felx;
+	justify-items: center;
+	position: relative;
+	align-items: center;
+	padding: 20px;
+	width:430px;
+	background: transparent;
+	border-radius: 20px;
+	border:5px solid  rgba(255, 255, 255, .2);
+	backdrop-filter: blur(10px);
+}
+.main h2{
+	text-align: center;
+	padding-bottom: 10px;
+	color:white;
+}
+.main .name input{
+	border-radius: 20px;
+	width: 190px;
+	height: 30px;
+	padding:;
+	align-items: center;
+	padding-left: 2px;
+	margin: 2.5px;
+	outline: none;
+	padding-left: 10px;
+}
+.main .name input::placehoder{
+}
+.main .input input{
+	outline:none;
+	align-items: center;
+	width:95%;
+	height: 30px;
+	border-radius: 20px;
+	padding top:10px;
+	margin: 3px;
+	padding-left:10px;
+}
+.main .btn button{
+	width:99%;
+	align-items: center;
+	font-size: 25px;
+	border-radius: 20px;
+	font-weight: bold;
+	margin-top:20px ;
+	height: 50px;
+
+
+}

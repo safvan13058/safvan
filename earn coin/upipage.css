@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background: url(bankpic.jpeg)no-repeat;
+	background-size:cover ;
+	background-position: center;
+}
+form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 90vh;
+}
+.blc h2{
+	display: flex;
+	margin: 20px;
+	color:yellow;
+}
+.main{
+	width:330px;
+	border-radius: 14px;
+	background:transparent;
+    border: 5px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+}
+.main .heading{
+	text-align: center;
+	color:white;
+}
+.form{
+	align-items: center;
+	color:;
+	margin: 20px;
+}
+.form p{
+	padding-left: 10px;
+	color:white;
+}
+.form input{
+	width: 95%;
+	border-radius: 14px;
+	height: 25px;
+	margin-bottom: 10px;
+	outline: none;
+	padding-left: 20px;
+}
+.form input::placeholder{
+	color:black;
+	padding-left: px;
+}
+
+.btn button{
+	width: 40%;
+	color:black;
+	border-radius: 14px;
+	height: 30px;
+	align-items: center;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    
+
+}

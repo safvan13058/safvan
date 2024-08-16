@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgb(30,30, 30, 1.0);
+	position: relative;
+}
+.navbar{
+	position: sticky;
+	width:100%;
+	background:;
+	height: 60px;
+	color:yellow;
+}
+.navdiv{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navdiv .logo{
+	margin-left:20px ;
+	margin-top: 20px;
+	position: relative;
+	color: ;
+}
+.logo1{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 5px;
+
+
+}
+li{
+	padding-right:10px ;
+	margin-top: 20px;
+	margin-right: 20px;
+	list-style: none;
+	display: inline-block;
+
+}
+li a{
+	color:yellow;
+	font-size:18px;
+	font-weight: bold;
+	margin-right: 25px;
+	text-decoration: none;
+}
+li a:hover{
+
+	color:blue;
+	transition: 1s;
+}
+.navdiv button{
+	margin-right: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size:15px;
+	outline: none;
+	background:whitesmoke;
+	border-radius:14px;
+	width:100px;
+	height: 25px;
+
+}
+.navdiv button a{
+	text-decoration: none;
+	color:black;
+}
+.mainbtn{
+	position:;
+	align-items:center;
+	align-content: center;
+	text-align: center;
+	margin-top: 150px;
+}
+.mainbtn button{
+	width:200px;
+	height: 200px;
+	border-radius: 50%;
+	border: none;
+	box-shadow: : 0 0 10px rgba(0, 0, 0, 0.1);
+	font-size: 25px;
+	font-weight:bolder;
+	background: white;
+	box-shadow:0em 0em 2em 0.25em black;
+	outline: none;
+}
+.mainbtn button:hover{
+	background: yellow;
+	color:yellow;
+	box-shadow:0em 0em 2em 0.25em yellow;
+}
+.mainbtn .btn img{
+	border: none;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+}
+.navmenu{
+	display:none;
+	cursor: pointer;
+	margin-right: 20px;
+	margin-top: 20px;
+
+
+}
+.bar{
+	display:block;
+	width: 25px;
+	height:3px;
+	margin: 5px auto;
+	-webkit-transition:all 0.3 ease-in-out ;
+	transition:all 0.3 ease-in-out;
+	background-color: white;
+
+}
+
+
+
+@media(max-width:700px){
+ .navmenu{
+		display:block;
+	}
+	.navmenu.active .bar:nth-child(){
+	}
+	.navmenu.active .bar:nth-child(1){
+		transform: translateY(8px) rotate(45deg);
+	}
+	.navmenu.active .bar:nth-child(3){
+		transform: translateY(-8px) rotate(-45deg);
+	}
+	.nav{
+		position: fixed;
+		left:-100%;
+		top: 70px;
+		gap:0;
+		flex-direction:column;
+		background-color: red;
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+	}
+	.nav.active{
+		left:0;
+
+	}
+	.navitem{
+		margin: 10px;
+	}
+}
